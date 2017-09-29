@@ -1,7 +1,7 @@
-site :opscode
+source 'https://supermarket.chef.io'
+
 metadata
 
 group :integration do
-  cookbook 'apt', '~> 2.0'
+  cookbook 'test', path: './test/cookbooks/test'
 end
-
